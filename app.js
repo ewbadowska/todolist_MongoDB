@@ -99,9 +99,6 @@ app.post("/delete", function(req, res) {
             }
         })
     }
-
-
-
 });
 
 app.get("/:customListName", function(req, res) {
@@ -124,7 +121,6 @@ app.get("/:customListName", function(req, res) {
             }
         }
     })
-
 });
 
 let port = process.env.PORT;
